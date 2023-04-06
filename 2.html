@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="content-page ">
+        <div class="walls container mt-4 mb-5">
+            <div class="jumbotron-seller position-relative"><img class="w-100 landing-img image-fit-center"
+                    style="background-image: url(./userprofile/public/images/h3.jpg);">
+                <div class="icon-edit-background" role="button" tabindex="0"><input
+                        accept="image/png, image/jpg, image/jpeg" multiple="" type="file" autocomplete="off"
+                        tabindex="-1" style="display: none;">
+                        <div class="icon_bg"><i class='bx bx-camera'></i></div>
+                    </div>
+                <div></div>
+                <div class="mb-3 avatar-ctn align-items-center">
+                    <div class="switch-to-shop-button invisible">
+                        <div class="">
+                            <ul class="page-switch m-0 mt-sm-3">
+                                <li class="page-switch__item"><input class="page-switch__input" type="radio"
+                                        name="media" id="image"><label class="page-switch__label" for="image"><img
+                                            class="left"
+                                            src="/images/community/icon_shop_unactive_community.svg"></label></li>
+                                <li class="page-switch__item"><input class="page-switch__input" type="radio"
+                                        name="media" id="video" checked=""><label class="page-switch__label"
+                                        for="video"><img class="right"
+                                            src="/images/community/icon_profile_active_community.svg"></label>
+                                    <div class="page-switch__marker" aria-hidden="true"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-ctn full-width position-relative"><img
+                            src="https://d1l9t1uin73ojb.cloudfront.net/media/images/6794c3cb-bf94-4fff-9767-c5030b452f21.png"
+                            class="avatar-img image-fit-center">
+                        <div class="icon-edit-avatar" role="button" tabindex="0"><input
+                                accept="image/png, image/jpg, image/jpeg" multiple="" type="file" autocomplete="off"
+                                tabindex="-1" style="display: none;">
+                                <!-- <img src="./userprofile/public/images/icon.png"
+                                alt="icon" class="icon-edit-avatar"> -->
+                                <i class='bx bx-camera'></i>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="create-new-post visible"><img class="icon-add" src="./userprofile/public/images/plus.png"><span
+                            class="d-none d-sm-block" style="margin-left: 18px;">Tạo bài đăng</span></div>
+                </div>
+                <h1 class="text-center user-name-wall font-family-bold mb-4">Phạm Văn Hà<span><img
+                            class="icon-edit-username" src="./userprofile/public/images/Edit.png"></span></h1>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="info-section text-center">
+                        <h3 class="mb-0">Bài viết</h3>
+                        <p class="mb-0 font-family-bold ">0</p>
+                    </div>
+                    <div class="devider"></div>
+                    <div class="info-section text-center">
+                        <h3 class="mb-0">Người theo dõi</h3>
+                        <p class="mb-0 font-family-bold cursor-pointer">0</p>
+                    </div>
+                    <div></div>
+                    <div class="devider"></div>
+                    <div class="info-section text-center">
+                        <h3 class="mb-0">Đang theo dõi</h3>
+                        <p class="mb-0 font-family-bold cursor-pointer">1</p>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mt-4-5">
+                <div class="profile__tab">
+                    <div class="profile__tab__ctn">
+                        <div class="active font-family-bold pointer"><img src="./userprofile/public/images/icon_tab_post.svg"
+                                class="mb-2" alt="post-icon"></div>
+                        <!-- <div class=" pointer"><img src="/images/icon/icon_bbook.svg" class="mb-2" alt="post-icon"></div>
+                        <div class=" pointer"><img src="/images/icon/icon_saved.svg" class="mb-2" alt="post-icon"></div> -->
+                        <div class=" pointer"><img src="./userprofile/public/images/icon_order_info.svg" class="mb-2" alt="post-icon">
+                        </div>
+                        <div class=" pointer"><img src="./userprofile/public/images/icon_voucher.svg" class="mb-2" alt="post-icon">
+                        </div>
+                    </div>
+                    <div class="profile__tab__content mt-5">
+                        <div class="tabsPost row">
+                            <div class="infinite-scroll-component__outerdiv">
+                                <div class="infinite-scroll-component "
+                                    style="height: auto; overflow: auto; display: flex; flex-flow: row wrap;">
+                                    <div class="empty-view"><img src="./userprofile/public/images/ic_articles.png" alt="icon"><span
+                                            class="p-3 m-auto fo-14">Hiện chưa có bài đăng nào</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Toastify"></div>
+    </div>
+</body>
+
+</html>
